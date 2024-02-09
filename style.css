@@ -1,0 +1,183 @@
+*{
+  background-color: #11111200;
+  margin: 0;
+}
+h1{
+  font-size: 1em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 1px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar :hover {
+  height: 200px;
+}
+
+
+.navbar a:hover {
+  line-height: 1.2em;
+  color: #ffffff00;
+  text-shadow: 
+    0 0 #fc1313, 
+    0 1.2em #ffffff;
+  overflow: hidden;
+  transition: .3s;
+}
+
+
+
+iframe{
+  height: 99vh;
+  width: 99vw;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.contenedor {
+  background-color: black;
+  position: relative;
+}
+
+.texto-encima {
+  font-size: 10em !important;
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  z-index: 1;
+}
+
+.texto-encima h1:hover{
+  text-shadow: 9px 9px 9px rgb(0, 0, 0);
+}
+
+.texto-encima h1:hover{
+  color: #fc1313;
+  text-shadow: 9px 9px 9px rgb(0, 0, 0);
+}
+
+.pencima{
+  /* font-family: 'Poppins', sans-serif; */
+  position: absolute;
+  font-size: 0.15em;
+  left: 35em;
+  right: 3em ;
+  bottom: 350px;
+}
+
+
+.suvida{
+  gap: 125px;
+  height: 30vh !important;
+  padding: 0em 5em 13em 5em!important;
+  width: auto;
+  background-color: #21201f !important;
+  display: flex;
+}
+
+
+.suvida h2{
+  color: white;
+  text-shadow: 9px 9px 9px rgb(0, 0, 0);
+  padding: 35px;
+  font-size: 2.7em !important;
+}
+
+.suvida.disco{
+  background-color: white !important;
+}
+
+.suvida h2 :hover{
+  color: #fc1313 !important;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.suvida p{
+  color: white;
+  font-size: 1.2em;
+}
+
+
+/* Secciones de abajo */
+
+div .izquierda{
+  align-items: top;
+  padding-top: 25px;
+}
+
+.derecha{
+  padding-top: 120px;
+}
+
+
+
+/* Sección desplegable */
+
+.futel{
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
+  padding: 20px;
+}
+  
+.futel a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.futel a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
